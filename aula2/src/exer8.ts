@@ -11,6 +11,7 @@ class Rectangle {
 
 }
 
+
 const sd = new Point(3,5);
 const ie = new Point(1,2);
 
