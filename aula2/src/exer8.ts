@@ -1,14 +1,19 @@
-class Point {
-    x: number;
-    y: number;
-    constructor(x: number, y: number) {
-      this.x = x;
-      this.y = y;
-    }
+import Point from "./exer7";
+
+
+class Rectangle{
+  point1:Point;
+  point2:Point;
+
+  constructor(point1:Point, point2:Point){
+    this.point1 = point1;
+    this.point2 = point2;
   }
-
-class Rectangle {
-
+  area():number{
+    const b:number = this.point1.x - this.point2.x;
+    const h:number = this.point1.y - this.point2.y;
+    return b * h;
+  }
 }
 
 

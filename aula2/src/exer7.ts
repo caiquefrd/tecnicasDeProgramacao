@@ -15,4 +15,4 @@ const b = new Ponto(1, 2);
 
 console.log(a.distancia(b));
 
-export{};
+export default Ponto
