@@ -9,7 +9,7 @@ export default class Horista extends Funcionario {
         this.horas = horas;
         this.funcao = funcao;
         if((this.validaEmail() == false )){
-            console.log("e-Mail inválido, vai tricolor!")
+            console.log("\n Vai tricolor! \n \n e-Mail inválido. ")
         }
     }
 

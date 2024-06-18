@@ -2,7 +2,7 @@ import Mensalista from "./Mensalista";
 import Horista from "./Horista";
 
 const mensalista = new Mensalista(1, "Fulano", 18, "fulano@adm.xpto.tec.br",1412,1,"Estagiário");
-console.log("<< mensalistaALISTA >>");
+console.log("<< MENSALISTA >>");
 console.log("Matricula: ",mensalista.matricula);
 console.log("Nome: ",mensalista.nome);
 console.log("e-Mail: ",mensalista.email," - ", mensalista.validaEmail()?"Válido":"Inválido");
